@@ -5,11 +5,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -18,15 +13,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> 
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create a resource group and Windows 10 virtual machine with 2CPUs
+- Download installation files (https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
+- Open IIS as admin
+- Register PHP
+- Reload IIS
+- Install OsTicket
+- Reload OsTicket
+- Go to sites -> default -> osTicket -> browse *:80
+- Go to sites -> default -> osTicket -> Enable or disable an extension”
+[X] Enable: php_imap.dll
+[X] Enable: php_intl.dll
+[X] Enable: php_opcache.dll
+- Rename: from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Go to ost-config.php -> properties -> security -> Disable inheritance -> Remove all -> New permissions -> Everyone -> All permissions
+- Continue osTicket Setup in browser
 
 <h2>Installation Steps</h2>
 
@@ -53,9 +58,8 @@ Open IIS -> Register PHP Manager -> Reload IIS by restarting the server
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/Sc2jM5k.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-Register PHP Manager in IIS
-Open IIS -> Register PHP Manager -> Reload IIS by restarting the server
+Setup Complete!
 </p>
 <br />
