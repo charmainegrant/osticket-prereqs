@@ -32,6 +32,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Rename: from C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php
 - Go to ost-config.php -> properties -> security -> Disable inheritance -> Remove all -> New permissions -> Everyone -> All permissions
 - Continue osTicket Setup in browser
+- Delete: C:\inetpub\wwwroot\osTicket\setup
+- Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+- Help Desk Login http://localhost/osTicket/scp/login.php
+- End User login http://localhost/osTicket/
 
 <h2>Installation Steps</h2>
 
