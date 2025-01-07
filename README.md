@@ -39,7 +39,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<img src=https://i.imgur.com/XEebItf.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/79f87988-0a91-43ec-94ff-1bad50dc9442)
+Create an Azure Virtual Machine Windows 10, 2 vCPUs
+Virtual Machine- osticket-vm
+Resource Group- osTicket
+Username: labuser
+Password: osTicketPassword1!
+
 <p>
 <img src=https://i.imgur.com/XEebItf.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
