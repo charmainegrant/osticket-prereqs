@@ -41,10 +41,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/79f87988-0a91-43ec-94ff-1bad50dc9442)
 Create an Azure Virtual Machine Windows 10, 2 vCPUs
-Virtual Machine- osticket-vm
-Resource Group- osTicket
-Username: labuser
+-> Virtual Machine- osticket-vm -> 
+Resource Group- osTicket -> 
+Username: labuser -> 
 Password: osTicketPassword1!
+
+![image](https://github.com/user-attachments/assets/959af15a-0db0-49f4-b22c-afc4a3bc5fc4)
+Select your virtual machine -> copy your Public IP address -> Enter pass
+
+![image](https://github.com/user-attachments/assets/f685b54f-1b57-4ab4-860d-9e9c4b06a74a)
+
+Open Remote Desktop -> Paste your Public IP address -> Connect -> Enter Password: osTicketPassword1! 
 
 <p>
 <img src=https://i.imgur.com/XEebItf.png height="80%" width="80%" alt="Disk Sanitization Steps"/>
